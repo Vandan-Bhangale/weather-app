@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" class="searchInp">
+            <button class="searchbtn"><i class="fa-solid fa-magnifying-glass magnify"></i></button>
+        </div>
+        <div class="error">
+            <p>Please enter a valid city name</p>
+        </div>
+        <div class="weather">
+            <img src="./images/clouds.png" alt="cloudy" class="wimage">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">Vadoadra</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <img src="./images/humidity.png" alt="Humadity">
+                <div>
+                    <p class="humadity">50%</p>
+                    <p>Humadity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/wind.png" alt="Humadity">
+                <div>
+                    <p class="wind">15 km</p>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
